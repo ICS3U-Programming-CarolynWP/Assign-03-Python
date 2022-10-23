@@ -83,8 +83,8 @@ def main():
                 ") is in Quadrant 3\n",
             )
 
-        # 4th Quadrant (Else statement) (If x is positive and y is negative)
-        else:
+        # 4th Quadrant(If x is positive and y is negative)
+        elif x_coord_1_integer > 0 and y_coord_1_integer < 0:
             print(
                 "Your first coordinate (",
                 x_coord_1_integer,
@@ -92,7 +92,15 @@ def main():
                 y_coord_1_integer,
                 ") is in Quadrant 4\n",
             )
-
+        else:
+             print(
+                "Your first coordinate (",
+                x_coord_1_integer,
+                ",",
+                y_coord_1_integer,
+                ") is not in any quadrant\n",
+            )
+            
         # If...ElseIf...Else statement for the quadrants (2nd coordinate pair):
         # 1st Quadrant (If x and y are positive)
         if x_coord_2_integer > 0 and y_coord_2_integer > 0:
@@ -124,14 +132,22 @@ def main():
                 ") is in Quadrant 3\n",
             )
 
-        # 4th Quadrant (Else statement) (If x is positive and y is negative)
-        else:
+        # 4th Quadrant (If x is positive and y is negative)
+        elif x_coord_2_integer > 0 and y_coord_2_integer < 0:
             print(
                 "Your second coordinate (",
                 x_coord_2_integer,
                 ",",
                 y_coord_2_integer,
                 ") is in Quadrant 4\n",
+            )
+        else:
+             print(
+                "Your second coordinate (",
+                x_coord_2_integer,
+                ",",
+                y_coord_2_integer,
+                ") is not in any quadrant\n",
             )
 
         # Function to determine how far away x1y1 is from x2y2
