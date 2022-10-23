@@ -93,14 +93,14 @@ def main():
                 ") is in Quadrant 4\n",
             )
         else:
-             print(
+            print(
                 "Your first coordinate (",
                 x_coord_1_integer,
                 ",",
                 y_coord_1_integer,
                 ") is not in any quadrant\n",
             )
-            
+
         # If...ElseIf...Else statement for the quadrants (2nd coordinate pair):
         # 1st Quadrant (If x and y are positive)
         if x_coord_2_integer > 0 and y_coord_2_integer > 0:
@@ -142,7 +142,7 @@ def main():
                 ") is in Quadrant 4\n",
             )
         else:
-             print(
+            print(
                 "Your second coordinate (",
                 x_coord_2_integer,
                 ",",
